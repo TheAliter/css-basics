@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    padding: 0;
+    color:black;
+    text-decoration: none; /* līnijas zem, caur, virs teksta */
+    font-family: "Yu Gothic";
+}
+
+ul {
+    font-size: 16px;
+}
+
+a:hover {
+    color:red;
+}
+
+a:active {
+    color:aqua;
+}
+
+a:visited {
+    color:green;
+     opacity: 0.4;
+}
+
+#main-text:hover {
+    background-color: rgba(250, 150, 60, 0.4);
+}
+
+.deep p:first-child {
+    font-weight: bold;
+}
+
+.deep p:last-child {
+    text-decoration: underline;
+}
+
+.see p:first-of-type {
+    background-color: azure;
+    word-spacing: 10px;
+}
+
+.see p:last-of-type {
+    background-color: fuchsia;
+}
+
+.see p:nth-child(3) {
+    background-color: gold;
+}
+
+ul li:nth-child(2n+1) {
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 30px;
+    margin: 10px 20px;
+}
+
+ul li:nth-child(even) {
+    font-style: italic;
+    font-size: 80%;
+    font-weight: lighter;
+    letter-spacing: 0.4em;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 500px;
+    margin: 20px auto;
+    display: block;
+    list-style-type: none;
+}
+
+
+ul li:nth-of-type(4) {
+    color: tomato;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p.push:hover {
+    background: yellow ;
+}
+
+body {
+    background: url(https://www.mytechlogy.com/upload/by_users/DiyaAgarwal/101803061038slider3.png) no-repeat center;
+    background-color: #fff;
+    background-size: auto;
+}

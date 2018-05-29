@@ -1,0 +1,76 @@
+/* RESET */
+
+
+
+/* General tags */
+
+p {
+    font-size: 16px !important;
+}
+
+
+h2, h3 {
+    font-size: 22px;
+}
+
+a {
+   text-decoration: underline;
+    color: blue;   
+}
+
+span {
+    text-transform: uppercase;
+}
+
+div {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+/* Specific tags */
+
+#header {
+    color: green;
+    left: 0;
+}
+
+.top {
+    font-size: 12px;
+}
+
+#header h1 {
+    font-size: 40px;
+}
+
+#main-text h2 {
+    font-size: 30px;
+}
+
+#main-text > p {
+    text-decoration: underline;
+}
+
+#main-text h2 + p {
+    color: green;
+}
+
+#sub-text p {
+    text-transform: lowercase;
+}
+
+a[title] {
+    color: purple;
+}
+
+a[title="google"] {
+    color: aqua;
+}
+
+p[class~="top"]{
+    text-decoration: overline;
+}
+
+a[href$="pdf"] {
+    text-decoration: line-through;
+    color: red;
+}
